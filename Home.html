@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hello, world!</title>
+  </head>
+  
+   <!-- <style>
+    
+    div.transbox{
+      background-image: url(img\(7\).jpg);
+      background-size: cover;
+ border: 1px solid white;
+opacity: 0.8;
+margin: 0px; 
+background-color:rgba(16, 201, 238, 0.904) ;
+border-top-right-radius:25px ;
+box-shadow: 0 0 0 2px red;
+background-repeat: no-repeat;
+width: 100%;
+height: 400px;
+  }
+  div.transbox h2{
+    margin:5px;
+    color:crimson;
+    font-style: oblique;
+
+  }
+    
+  </style> -->
+  <style>
+    .top-left{
+      position:absolute;
+      top:10px;
+      left:10px ;
+
+    }
+    
+  </style>
+  <body>
+<nav class="navbar navbar-expand-md bg-dark navbar-light p-3">
+<a class="navbar-brand" href="">
+<img src="img(21).jpg" alt="" width="110px" height="110px" class="img-thumbnail rounded-circle">
+<h3 style="color:rgb(41, 245, 14)" class="text-center">E-Farm</h3>
+</a>
+<button class="navbar-toggler bg-danger ml-auto" data-toggle="collapse" data-target="#a1" >
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class=" navbar-collapse collapse " id="a1">
+
+<div class="ml-auto">
+<ul class="navbar-nav ">
+<li class="nav-item p-3">
+    <a class="nav-link text-white"  href="">Home</a>
+</li>
+<li class="nav-item dropdown p-3">
+    <a class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="">About</a>
+    <div class="dropdown-menu">
+        <a class="dropdown-item bg-secondary text-white" href="">Our Process</a>
+        <a class="dropdown-item bg-secondary text-white" href="">E-farm gallery</a>
+    </div>
+</li>
+<li class="nav-item p-3">
+    <a class="nav-link text-white"  href="">Services</a>
+</li> 
+<li class="nav-item  p-3">
+    <a class="nav-link text-white" href="">Contact Us</a>
+</li>
+<li class="nav-item m-3">
+<button class=" btn btn-warning "data-target="#s5" data-toggle="modal">Login</button>
+</li>
+<li class="nav-item m-3">
+<button class=" btn btn-warning "data-target="#s6" data-toggle="modal">Sign In</button>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="modal" id="s5">
+  <div class="modal-dialog bg-secondary">
+    <div class="model-content">
+      <div class="modal-header">
+             <h4 class="text-white">Login</h4>
+             
+            <button class="close" data-dismiss="modal">x</button>
+      </div>
+      <div class="modal-body">
+        <form action="">
+          <div class="form-group">
+            <label class="form-control-label" for="">Username</label>
+            <input class="form-control-input" type="text" >
+          </div>
+          <div class="form-group">
+            <label class="form-control-label" for="">Password</label>
+            <input class="form-control-input" type="password" >
+          </div>
+          <div>
+            <input class="btn btn-primary btn-block" type="submit" value="Login">
+          </div>
+          
+        </form>
+          
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal" id="s6">
+  <div class="modal-dialog bg-secondary">
+    <div class="model-content">
+      <div class="modal-header">
+             <h4 class="text-white">Sign In</h4>
+             <button class="close"data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form action="">
+          <h2>Create account</h2>
+          <div class="form-group">
+            <label class="form-control-label" for="#a">User name</label>
+            <input class="form-control-input" type="text" id="a">
+          </div>
+          <div class="form-group">
+            <label class="form-control-label" for="#b">Password</label>
+            <input class="form-control-input" type="password" id="b" >
+          </div>
+          <div class="form-group">
+          <label class="form-control-label" for="#c">Mobile Number</label>
+          <input type="number" name="" id="c">
+          </div>
+          <div>
+            <input class="btn btn-primary btn-block" type="submit" value="Sign In">
+          </div>
+        </div>
+        </form>
+          
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="carousel slide" data-ride="carousel"id="s2">
+
+  <ol class="carousel-indicators">
+    <li data-target=#s2 data-slide-to="0"></li>
+    <li data-target=#s2 data-slide-to="1"></li>
+    <li data-target=#s2 data-slide-to="2"></li>
+  </ol>
+ 
+<div class="carousel-inner">
+  
+    <div class="carousel-item active ">
+      <img src="https://singularityhub.com/wp-content/uploads/2017/10/vegetables-growing-vertical-farm-drip-irrigation-shutterstock-661209490-1068x601.jpg" alt="" class="d-block w-100"height="400px">
+      <div class="top-left">
+        <h1 style="color: rgb(16, 20, 248);font-style: italic;" >Think with heart</h1>
+        <h1 style="color: rgb(16, 20, 248);font-style:italic;" >Tasty and healthy oragnic food</h1>
+      </div>
+      <div class="carousel-caption">
+        <h1 class="text-white">Welcome to E-farm</h1>
+      </div>
+      
+    </div>
+          
+
+    <div class="carousel-item bg-dark">
+     <div class="carousel-caption">
+       <div class="conatiner">
+         <div class="row">
+           <div class="col">
+             <h1  style="color: turquoise;">Stay Home We Deliver</h1>
+           </div>
+         </div>
+       </div>
+     </div>
+      <img src="img(19).jpg" alt=""class="d-block w-100"height="400px">
+    </div>
+    
+   <div class="carousel-item">
+  <!-- <h1 style="font-style: oblique;color:violet;position:absolute;top:10px;left:10px;" class=" m-5" >We will assure best quality </h1> -->
+      <img src="http://fromyourinside.com/wp-content/uploads/2020/03/how-to-choose-fresh-vegetables.jpeg" alt=""class="d-block w-100"height="400px">
+     <div class="carousel-caption bg-dark">
+       <div class="container">
+         <div class="row ">
+           <div class="col">
+             <h2 style="font-style: oblique;" >We will assure best quality</h2>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ <a class="carousel-control-prev " data-slide="prev" href="#s2">
+   <span class="carousel-control-prev-icon"></span>
+ </a>
+ <a class="carousel-control-next"data-slide="next" href="#s2">
+   <span class="carousel-control-next-icon"></span>
+ </a>
+</div>
+</div>
+<div>
+<h3 style="font-style: italic;" class=" text-center">Don’t Panic Go Organic</h3>
+      <h1 class="text-center">What We Offer for You</h1>
+</div>
+ <!-- <div class="container">
+<div class="row m-5">
+    
+  <div class="col-md">
+    <div class="card bg-secondary text-white p-3 ">
+      <img src="img(2).jpg" alt="" class="card-img-top rounded-circle "height="160px" width="100px" >
+      <div class="card-body">
+<h3 class="text-white" >Organic Vegetables</h3>
+<p class="text-white" >E-FARM Pesticide-Free & Organic vegetable is grown in a mix of modern & traditional farm all over India</p>
+    <a href="" class="button bg-warning btn p-1">Shop now</a> 
+</div>
+    </div>
+  </div>
+  <div class="col-md">
+    <div class="card bg-secondary text-white p-3">
+      <img src="img(11).jpg" alt="" class="card-img-top rounded-circle "height="160px" width="100px" >
+      <div class="card-body">
+        <h3 class="text-white" >Organic Products</h3>
+       <p class="text-white" >E-FARM Organic Products ranging from Made In House Pesto Sauce to Handmade tofu fermented for 3 days for the best flavor</p>
+       <a href="" class="button bg-warning btn p-1">Shop now</a> 
+      </div>
+    </div>
+  </div>
+  <div class="col-md">
+    <div class="card bg-secondary text-white p-3 ">
+      <img src="img(10).jpg" alt="" class="card-img-top rounded-circle "height="160px" width="100px" >
+      <div class="card-body">
+        <h3 class="text-white">Organic Fruits</h3>
+       <p class="text-white">E-FARM Organic Fruits grown in Soil based Farms all over India without using any Pesticide & Presavative</p>
+       <a href=""class="button bg-warning btn p-1" >Shop now</a> 
+      </div>
+    </div>
+  </div>
+ </div> 
+</div> -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <i class="fa fa-phone" aria-hidden="true"></i><span>+9876543210<br>Got Questions?call us 24/7</span>
+        <div class="row m-2">
+        <h4 class="text-center text-black"  >OUR ADDRESS</h4> 
+        </div>
+        <div class="row">
+          <span>nkjhhjhhjhjh<br>huhcjhcjhjkhjhuiyuh<br>fnknknf560000</span>
+        </div>
+          
+        
+      </div>
+      <div class="col">
+        <div class="row">
+        <h4 class="text-black">Help</h4>
+      </div>
+      <div class="row">
+        <span>Terms of use</span>
+      </div>
+      <div class="row">
+        <span>security</span>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="row ">
+    <div class="col-6 m-2 ml-auto">
+    <i class="fa fa-facebook-official " aria-hidden="true" ></i>
+    <i class="fa fa-instagram " aria-hidden="true"></i>
+    <i class="fa fa-whatsapp " aria-hidden="true"></i>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col-6 m-2 ml-auto">
+      <span class="text-center">Copyright © 2021 E-Farm by swapna. All Rights Reserved.</span>
+    </div>
+  </div>
+</div>
